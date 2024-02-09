@@ -51,7 +51,7 @@ class MarioKartGame {
         character = input.next();
         System.out.println("What is your speed? ");
         speed = input.nextInt();
-        // Instantiate object yoshi
+        // Instantiate object bowser
         MarioKartPlayer bowser = new MarioKartPlayer(playerName, character, speed);
         // Display the information of both characters
         yoshi.displayInfo();
