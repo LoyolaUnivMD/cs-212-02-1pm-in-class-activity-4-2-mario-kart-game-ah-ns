@@ -1,0 +1,7 @@
+Test cases go here. 
+Initial speed:    Player name:      Character:      Final Output:
+8                 hans              mario           Player Name: hans; Character: mario; Speed: 9
+899               Joe               yoshi           Player Name: Joe; Character: yoshi; Speed: 900
+-1                liam              koopa           Player Name: liam; Character: koopa; Speed: 0
+2                 sam               princess peach  Player Name: sam; Character: princess peach; Speed: 3
+99                Teddy             luigi           Player Name: Teddy; Character: luigi; Speed: 100

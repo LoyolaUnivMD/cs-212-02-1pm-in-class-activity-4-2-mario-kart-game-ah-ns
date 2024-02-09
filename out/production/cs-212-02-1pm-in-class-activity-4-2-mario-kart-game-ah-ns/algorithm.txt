@@ -1,0 +1,20 @@
+class MarioKartPlayer:
+    Attributes:
+        Strings playerName and character
+        integer speed
+    General Constructor (parameters playerName, character, speed):
+        use this keyword to assign the variables to a specific object
+    Boost Method:
+        Output the player's name performed a boost
+        Increment speed by 1 and store back to speed
+    Display Info Method:
+        Display the player's name, character, and their speed
+
+class MarioKartGame:
+    main:
+        output Mario kart!
+        create scanner object input
+        Request user input for name and character and speed and use to instantiate two player objects
+        display the current info for each player
+        call boost method to increase each player's speed
+        display the new player information

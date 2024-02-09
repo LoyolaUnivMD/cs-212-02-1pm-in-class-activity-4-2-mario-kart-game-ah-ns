@@ -37,14 +37,22 @@ class MarioKartGame {
         // Prompt user input for player data
         System.out.println("Enter your name: ");
         String playerName = input.next();
-        System.out.println("Enter ")
+        System.out.println("Enter your character: ");
         String character = input.next();
-        int
-        // Instantiate two objects yoshi
-        MarioKartPlayer yoshi = new MarioKartPlayer();
+        System.out.println("What is your speed? ");
+        int speed = input.nextInt();
+        // Instantiate object yoshi
+        MarioKartPlayer yoshi = new MarioKartPlayer(playerName, character, speed);
 
+        // Prompt user input for player data
+        System.out.println("Enter your name: ");
         playerName = input.next();
-        MarioKartPlayer bowser = new MarioKartPlayer();
+        System.out.println("Enter your character: ");
+        character = input.next();
+        System.out.println("What is your speed? ");
+        speed = input.nextInt();
+        // Instantiate object yoshi
+        MarioKartPlayer bowser = new MarioKartPlayer(playerName, character, speed);
         // Display the information of both characters
         yoshi.displayInfo();
         bowser.displayInfo();
